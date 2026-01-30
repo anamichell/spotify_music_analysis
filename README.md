@@ -1,15 +1,19 @@
-# Spotify Music Analysis
+# 🎵 Spotify Music Analysis
 
-**Question: What Drives Music Popularity?**
+## 📚 About data
+This is a dataset of Spotify tracks over a range of 125 different genres. Each track has some audio features associated with it including, but not limited to, danceability, energy, key, loudness, mode, tempo, speechiness, and more. 
+
+The data is in CSV format which is tabular and can be loaded quickly. The dataset has already been formatted and ready-to-use. Only minor changes had to be made to better fit the objectives of this analysis. 
+
+The dataset is publicly available on [Kaggle](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset).
+
+## ❔ Question
+**What Drives Music Popularity?**
 1. Which audio features correlates most with popularity
 2. How does explicit content relate to popularity
 3. Do shorter songs perform better?
 
-**Tools**
-Python
-Tableau
-
-# Analysis
+## 🔍 Analysis
 1. How do audio features (tempo, loudness, etc.) relate to track popularity, and does this relationship differ for explicit vs. non-explicit songs?
 
 **Danceability vs. Popularity**
@@ -40,3 +44,7 @@ Tempo shows little to no relationship with popularity for non-explicit tracks, w
 
 Duration shows a strong negative relationship with popularity for both explicit and non-explicit tracks. The average track length is about 3.87 minutes, and songs longer than this tend to be DJ mixes, non-English tracks, or ambient music for studying/sleeping. This suggests that shorter, standard-length tracks are generally more popular across all groups.
 
+## 📊 Visualization
+Produced a story analysis walking through some highlights of the data.
+
+Tableau: [Story](https://public.tableau.com/app/profile/ana.garcia2226/viz/SpotifyMusicAnalysis_17697329880890/SpotifyAudioAnalysis)
